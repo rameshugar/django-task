@@ -114,7 +114,7 @@ USE_I18N = True
 USE_L10N = True
 
 import dj_database_url
-DATABASES('default') = dj_database_url.config()
+DATABASES['default'] = dj_database_url.config()
 USE_TZ = True
 
 
